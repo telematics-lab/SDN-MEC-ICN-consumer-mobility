@@ -2,8 +2,8 @@
 %This code implements the matematical model detailed in "A Softwarized and 
 % MEC-Enabled Protocol Architecture Supporting Consumer Mobility in
 % Information-Centric Networks" and plots the results
-N=input('Number of nodes:'); %Number of nodes in the network
-L=input('Number of consumers:'); % Number of consumers in the network
+N=input('Number of nodes:'); %Enter the number of nodes in the network
+L=input('Number of consumers:'); %Enter the number of consumers in the network
 T_D_vect=[10^-1 10000]; %[s] Average time interval between the generation of two consecutive contents
 T_D_vect=logspace(log10(min(T_D_vect)),log10(max(T_D_vect)),10);
 speed_vect=[3 30]; %[km/h] Average consumer speed
