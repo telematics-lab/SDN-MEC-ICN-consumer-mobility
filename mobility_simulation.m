@@ -3,13 +3,12 @@
 %m file from https://it.mathworks.com/matlabcentral/fileexchange/12850-dijkstra-s-shortest-path-algorithm for Dijkstra's Shortest Path Algorithm
 %This code simulates the random direction mobility model until a mobile
 %consumer changes AP, then the code calculates the number of stale disjoint
-%links and average shortest path length
-N=input('Number of nodes:');
-num_mobile_consumers=1;
-num_consumers=input('Number of consumers:')-1;
-sim_list= dir(sprintf('output-%d/outsim-*',N));
-num_topo=input('Number of topologies:');
-sim_per_topo=input('Number of simulations per topology:');
+%links and the average shortest path length
+N=input('Number of nodes:'); % enter the number of topologies generated
+num_consumers=input('Number of consumers:')-1; % enter the number of consumers interested in the same contents
+sim_list= dir(sprintf('output-%d/outsim-*',N)); 
+num_topo=input('Number of topologies:'); % enter the number of topologies generated
+sim_per_topo=input('Number of simulations per topology:'); % enter the number of simulations per topology
 
 num_stale_disjoint_links=ones(num_topo,sim_per_topo);
 num_avg_shortest_path=ones(num_topo,1);
