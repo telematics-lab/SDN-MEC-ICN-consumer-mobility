@@ -1,0 +1,23 @@
+SDN-MEC-ICN-consumer-mobility RELEASE NOTES
+====================================
+
+This file contains SDN-MEC-ICN-consumer-mobility release notes
+(ordered from the most recent one).
+
+Release 1
+=============
+
+Features
+--------
+First release of SDN-MEC-ICN-consumer-mobility
+
+
+Availability
+------------
+This release is available from this git repository
+https://github.com/telematics-dev/SDN-MEC-ICN-consumer-mobility
+
+
+Supported platforms
+-------------------
+- MATLAB R2020a
