@@ -1,5 +1,5 @@
 %Requirements: topology files generated from BRITE simulator
-%mat file from voronoi_map_association.m
+%mat file from create_voronoi_diagram.m
 %m file from https://it.mathworks.com/matlabcentral/fileexchange/12850-dijkstra-s-shortest-path-algorithm for Dijkstra's Shortest Path Algorithm
 %This code simulates the random direction mobility model until a mobile
 %consumer changes AP, then the code calculates the number of stale disjoint
