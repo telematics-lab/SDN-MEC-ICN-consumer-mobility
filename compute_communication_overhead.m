@@ -1,4 +1,4 @@
-%Requirements: mat file from mobility_simulation.m
+%Requirements: mat file from trace_consumer_mobility.m
 %This code implements the matematical model detailed in "A Softwarized and 
 % MEC-Enabled Protocol Architecture Supporting Consumer Mobility in
 % Information-Centric Networks" and plots the results
