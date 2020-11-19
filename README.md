@@ -19,7 +19,7 @@ The SDN-MEC-ICN framework is available at [this link](https://github.com/telemat
 2. Setting everything up  
 Create a folder and insert the MATLAB scripts provided on Git and the Dijkstra's algorithm script. Then, create a subfolder named "voronoi_diagrams". 
 Topology files are already provided in "topologies-N" folders, where N is the number of nodes considered in the BRITE topology files. 
-Each folder stores 300 topologies, numbered in ascending order. 
+Each folder stores 300 topologies files named "outsim-H", where H is an ID ranging from 1 to 300. 
 Other topologies generated with the BRITE simulator may be used with this framework by adopting the same naming scheme.  
 
 3. Using the code  
