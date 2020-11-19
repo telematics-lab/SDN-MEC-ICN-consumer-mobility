@@ -12,10 +12,10 @@
 1. Getting all the materials  
 The SDN-MEC-ICN framework is available at [this link](https://github.com/telematics-lab/SDN-MEC-ICN-consumer-mobility). To run the framework you also need:
 	- MATLAB software, available at [this link](https://it.mathworks.com/products/matlab.html);
-	- Dijkstra's Shortest Path Algorithm implementation for MATLAB, available at [this link](https://it.mathworks.com/matlabcentral/fileexchange/12850-dijkstra-s-shortest-path-algorithm).
-If you wish to generate and use topologies on your own, you also need:
-	- BRITE simulator, available at [this link](https://github.com/unly/brite).
-	
+	- Dijkstra's Shortest Path Algorithm implementation for MATLAB, available at [this link](https://it.mathworks.com/matlabcentral/fileexchange/12850-dijkstra-s-shortest-path-algorithm);
+	- BRITE simulator, available at [this link](https://github.com/unly/brite) (only needed if you wish to use topologies generated on your own).
+
+
 2. Setting everything up  
 Create a folder and insert the MATLAB scripts provided on Git and the Dijkstra's algorithm script. Then, create a subfolder named "voronoi_diagrams". 
 Topology files are already provided in "topologies-N" folders, where N is the number of nodes considered in the BRITE topology files. 
