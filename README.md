@@ -13,7 +13,7 @@
 The SDN-MEC-ICN framework is available at [this link](https://github.com/telematics-lab/SDN-MEC-ICN-consumer-mobility). To run the framework you also need:
 	- MATLAB software, available at [this link](https://it.mathworks.com/products/matlab.html);
 	- Dijkstra's Shortest Path Algorithm implementation for MATLAB, available at [this link](https://it.mathworks.com/matlabcentral/fileexchange/12850-dijkstra-s-shortest-path-algorithm);
-	- BRITE simulator, available at [this link](https://github.com/unly/brite) (only needed if you wish to use topologies generated on your own).
+	- BRITE simulator, available at [this link](https://github.com/dongkai16z/brite) (only needed if you wish to use topologies generated on your own).
 
 
 2. Setting everything up  
